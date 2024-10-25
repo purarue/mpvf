@@ -1,5 +1,5 @@
 #!/bin/sh
-# See https://github.com/seanbreckenridge/mpvf for more information
+# See https://github.com/purarue/mpvf for more information
 
 mpvf_help() {
 	cat <<HELPTEXT
@@ -13,7 +13,7 @@ You can set the MPVF_DL environment variable to download
 the selected format code instead, like:
 MPVF_DL=1 mpvf https://... [youtube-dl OPTION...]
 
-More info: https://github.com/seanbreckenridge/mpvf
+More info: https://github.com/purarue/mpvf
 HELPTEXT
 }
 
