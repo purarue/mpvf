@@ -46,9 +46,9 @@ If you want to stream just the audio, you can select the audio format, or pass t
 I've _further_ wrapped this script as well:
 
 - bound to different keybinds:
-  - [grab URL from my clipboard and stream using `mpvf`](https://sean.fish/d/stream-media?redirect)
-  - or, grab the URL and [just stream audio](https://sean.fish/d/stream-audio?redirect)
-  - or, grab the URL and [stream video](https://sean.fish/d/stream-corner?redirect), stickying the video in the bottom right of the screen ('picture in picture'-like), using [this](https://sean.fish/d/i3-picture-in-picture?redirect)
+  - [grab URL from my clipboard and stream using `mpvf`](https://purarue.xyz/d/stream-media?redirect)
+  - or, grab the URL and [just stream audio](https://purarue.xyz/d/stream-audio?redirect)
+  - or, grab the URL and [stream video](https://purarue.xyz/d/stream-corner?redirect), stickying the video in the bottom right of the screen ('picture in picture'-like), using [this](https://purarue.xyz/d/i3-picture-in-picture?redirect)
   - have other related variations; to grab the URL and [stream at different resolutions](https://github.com/purarue/dotfiles/blob/9da260bd6610dbbe5ff90b6bea54cfba48bd505a/.config/shortcuts.toml#L509-L562), often called from my RSS reader
-- [`twitch`](https://github.com/purarue/dotfiles/blob/2cf8b8d6e5901e3a099cfafb925a72ba1e40504a/.local/share/shortcuts/twitch-stream): streams a twitch stream using `mpvf`. See [this blog post](https://sean.fish/x/blog/how-i-watch-twitch/) for more context.
+- [`twitch`](https://github.com/purarue/dotfiles/blob/2cf8b8d6e5901e3a099cfafb925a72ba1e40504a/.local/share/shortcuts/twitch-stream): streams a twitch stream using `mpvf`. See [this blog post](https://purarue.xyz/x/blog/how-i-watch-twitch/) for more context.
 - [`mediaproxyvideo`](https://github.com/purarue/vps/blob/11df5cba6b9d7016b42b817de48e3b16f5ce9ecb/bin/mediaproxyvideo): mostly a copy of `mpvf`, which prompts me to select a format, `ssh`'s onto my server, `youtube-dl`/`ffmpeg`'s that video onto my server, and copies the public link its hosted on onto my clipboard.
